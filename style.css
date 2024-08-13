@@ -43,6 +43,10 @@ main{
     outline: none;
 
   }
+
+.section2{
+    text-align: center;
+}
 .mensaje{
     
     background: white;
@@ -50,8 +54,7 @@ main{
     background-repeat: no-repeat;
     border: none;
     border-radius: 1.5rem;
-    color: var(--color-secundario);
-    margin-left: 3.75rem;
+    color: var(--color-secundario);     
     margin-top: 0.525rem;
     padding-left: 1.25rem;
     position:flex ;
@@ -63,6 +66,7 @@ main{
 .botones{
     display: flex;
     margin-top: 10%;
+    gap: 5%;
     
 }
 .btn-desencriptar{
@@ -72,7 +76,6 @@ main{
     color: var(--color-secundario);
     cursor: pointer;
     height: 4.1875rem;
-    margin-left: 1.875rem;
     width: 328px;
 
 }
@@ -93,8 +96,8 @@ main{
     color: var(--color-secundario); 
     cursor: pointer;
     height: 3rem;
-    margin-left: 25%;
-    margin-top: 0.5rem;
+    
+    margin-top: 0.2rem; 
     position:flex;
     width: 250px;
 }
@@ -115,9 +118,16 @@ main{
         width: 50%;
         padding: auto;
         flex-direction: column;
-        display:flex;
+       
     
     }
+    .botones{
+        flex-direction:column ;
+        width: 100%;        
+        gap: 1rem;
+        
+    }
+    
     .mensaje{
         height: 100%;
         margin-left: 5%;
