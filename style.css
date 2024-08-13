@@ -19,7 +19,7 @@
 .logo{
     padding-top: 0.625rem;
     margin-left: 0.625rem;
-    width: 8%;
+    width: 10%;
  }
 main{
     display: flex;
@@ -62,7 +62,7 @@ main{
 }
 .botones{
     display: flex;
-    margin-top: 1.125rem;
+    margin-top: 10%;
     
 }
 .btn-desencriptar{
@@ -93,10 +93,10 @@ main{
     color: var(--color-secundario); 
     cursor: pointer;
     height: 3rem;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 0.5rem;
     position:flex;
-    width: 300px;
+    width: 250px;
 }
 .informacion {
     color: var(--color-cuaternario);
@@ -106,8 +106,13 @@ main{
 
 @media (max-width: 1100px) {
     
-    
+    .logo{
+        padding-top: 5rem;
+        margin-left: 2rem;
+        width: 40%;
+     }
     .main{
+        width: 50%;
         padding: auto;
         flex-direction: column;
         display:flex;
@@ -115,6 +120,7 @@ main{
     }
     .mensaje{
         height: 100%;
+        margin-left: 5%;
         margin-inline-end: auto;
         background-image: none;
     }
