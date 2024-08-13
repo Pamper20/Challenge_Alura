@@ -111,13 +111,13 @@ main{
     
     .logo{
         padding-top: 5rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
         width: 40%;
      }
     .main{
-        display: contents;
+       
         width: 50%;
-        padding: auto;
+        padding: center;
         flex-direction: column;
        
     
